@@ -1,4 +1,38 @@
-html {
-  height: 100%;
-  width: 100%;
+/* 
+linear Gradient - has 2 colors, top to bottom
+you can also use the to bottom right or left, 
+                     or even top right and left as well.
+
+checkout this link for more colors.
+https://www.w3schools.com/colors/colors_rgb.asp
+
+rgba - (0-255, 0-255, 0-255, .10)
+*/
+
+
+body{
+  background-image: linear-gradient(to bottom left,black,#003c3d);
+  color:white
 }
+/*This is a class */
+.food{
+  border-radius: 8px;
+}
+h1{ background-color: red; }
+
+/*
+inline (1) 
+internal (2)
+external (3)
+
+HEX COLOR VALUES
+
+Last way to use colors in styling is the Hex Value system
+Hexadecimal colors are specified with #RRGGBB, where RR = red, GG = green, and BB = blue 
+Values range from #000000 to #ffffff
+0-9 are the lower values, above that is a - f 
+Ascending order would be (0, 1, 2, 3, 4, 5, 6, 7, 8,9, a, b, c, d, e, f)
+Adding on several letters of the alphabet gives almost 17 million color choices, where 0 - 9 would only give 999999
+Google “color picker” and play with the hex values
+
+*/

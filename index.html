@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<!--
+
+-->
 <html>
 
 <head>
@@ -6,57 +9,81 @@
   <meta name="viewport" content="width=device-width">
   <title>My Favorites</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
+  <style>
+    h1 {
+      background-color: green;
+    }
+  </style>
 </head>
 
 <body>
 
-  <h1>My Favorite Things </h1>
-  <a href="https://www.google.com/"> Google </a>
-  <!-- Horizontal rule -->
-  <hr />
+  <header style="background-color: rgb(230,129, 30);">
+    <h1 >My Favorite Things </h1>
+    <a href="https://www.google.com/"> Google </a>
+    <!-- Horizontal rule -->
+    <hr />
+  </header>
   <!-- Break  -->
   <br />
-  <h2> My Favorite Sports</h2>
-  <!-- Paragraph -->
-  <p> I like basketball because it is a fun sport to play and it is a good sport to.<br /> I like to play the center
-    role as a basketball player.</p>
-   <!-- Unordered List  -->
-  <ul>
-    <!-- List Item  -->
-    <!-- Strong(Important), Bold, Mark  -->
-    <li><strong>Swimming</strong></li>
-    <li><b>Handball</b></li>
-    <li><mark>Running</mark></li>
-  </ul>
-  <!-- Image tag is how we render images and pictures 
-     Img Attributes:
-     src : Source 
-     alt : Alternate Text
-     width: from sizing
-  -->
-  <img src="https://images.pexels.com/photos/1821694/pexels-photo-1821694.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Running" width="300"/>
-  <h2> Favorite Foods</h2>
-  <!--  Ordered list -->
-  <!-- Different Italics
-     i and em(Important) 
-  -->
-  <ol start="1">
-    <li><i>Pizza</i></li>
-    <li><em>Churry </em></li>
-    <li> Ice Cream </li>
-    <li> French Fries </li>
-  </ol>
-  <img src="https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Pizza" width="300" />
-
-  <h2> Favorite Games</h2>
-  <!--  ordered list -->
-  <ol type="I">
-    <li>Pokemon</li>
-    <li>Yugioh</li>
-    <li> Dragontails </li>
-    <li> GTA </li>
-  </ol>
-  <img src="https://images.pexels.com/photos/1716861/pexels-photo-1716861.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Pika" width="300"/>
+  <!-- divider or container  -->
+  <div></div>
+  <section>
+    <h2> My Favorite Sports</h2>
+    <!-- Paragraph -->
+    <p> I like basketball because it is a fun sport to play and it is a good sport to.<br /> I like to play the center
+      role as a basketball player.</p>
+    <!-- Unordered List  -->
+    <ul>
+      <!-- List Item  -->
+      <!-- Strong(Important), Bold, Mark  -->
+      <li><strong>Swimming</strong></li>
+      <li><b>Handball</b></li>
+      <li><mark>Running</mark></li>
+    </ul>
+    <!-- Image tag is how we render images and pictures 
+       Img Attributes:
+       src : Source 
+       alt : Alternate Text
+       width: from sizing
+    -->
+    <img
+      src="https://images.pexels.com/photos/1821694/pexels-photo-1821694.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      alt="Running" width="300" />
+  </section>
+  <section>
+    <h2> Favorite Foods</h2>
+    <!--  Ordered list -->
+    <!-- Different Italics
+    i and em(Important) 
+ -->
+    <ol start="1">
+      <li><i>Pizza</i></li>
+      <li><em>Churry </em></li>
+      <li> Ice Cream </li>
+      <li> French Fries </li>
+    </ol>
+    <img id="food"
+      src="https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      alt="Pizza" width="300" />
+  </section>
+  <section>
+    <h2> Favorite Games</h2>
+    <!--  ordered list -->
+    <ol type="I">
+      <li>Pokemon</li>
+      <li>Yugioh</li>
+      <li> Dragontails </li>
+      <li> GTA </li>
+    </ol>
+    <img
+      src="https://images.pexels.com/photos/1716861/pexels-photo-1716861.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      alt="Pika" width="300" />
+  </section>
+  <footer>
+    <p> Created by <strong> Steven </strong> </p>
+    </p>
+  </footer>
 </body>
 
 </html>
