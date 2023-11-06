@@ -9,10 +9,12 @@ https://www.w3schools.com/colors/colors_rgb.asp
 rgba - (0-255, 0-255, 0-255, .10)
 */
 
+/* External Styling  */
 
 body{
   background-image: linear-gradient(to bottom left,black,#003c3d);
-  color:white
+  color:white ;
+  font-family: fantasy
 }
 /*This is a class */
 .food{
